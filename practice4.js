@@ -16,7 +16,7 @@ let i = 0
 let strategy = () => {
     setInterval(() => { //after
         i++
-        if(i>6){ //one if can be too
+        if(i>6){ 
             clearInterval(strategy)   //exit from Interval
         }
         else {
@@ -25,14 +25,13 @@ let strategy = () => {
     },2000)
     
     
-
+        //2 method
         // for (let i = 0; i <= 6; i++){    
         // if(i === 6){
-        //     break
-        //     // clearInterval(strategy)   
+        //     break   
         //  }   
         // else {
-        //     console.log("New lead") //infinite loops
+        //     console.log("New lead") 
         // }
     }
         
