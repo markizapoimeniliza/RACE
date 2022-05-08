@@ -1,4 +1,4 @@
-//makreting agency 
+//marketing agency 
 
 
 
@@ -10,7 +10,7 @@ let marketingAgency = (strategy) => {
 }
 
 
-   //conteol times
+
 
 let i = 0
 let strategy = () => {
