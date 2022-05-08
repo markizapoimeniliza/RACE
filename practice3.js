@@ -1,20 +1,22 @@
 
-// // let alCoin = function (call){
-// //     setTimeout(()=>{
-// //         console.log("The process has been started") //5sec
-// //         call() //5sec after
-// //     },5000)
-// // }
+//callback
+let alCoin = function (call){
+    setTimeout(()=>{
+        console.log("The process has been started") //5sec
+        call() //5sec after
+    },5000)
+}
 
 
-// // let alcoin = () => {
-// //     console.log("Alcoin was bought")
-// // }
+let alcoin = () => {
+    console.log("Alcoin was bought")
+}
 
 
-// // alCoin(alcoin)
+alCoin(alcoin)
 
 
+//promise
 let childrenNotAnnoying = true
 
 // //w/ and w/o return
