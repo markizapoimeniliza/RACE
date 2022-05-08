@@ -37,20 +37,6 @@ let strategy = () => {
         
     
 
-        
-        //   // for (HOW MANY TIMES)
-        //  setInterval(() => {      //setInterval  endless
-        //  time ++
-        //  if (time < 7) {
-        //      console.log("new lead")
-        //  }
-        //  else {      //break - loops, switch or label statement
-        //      clearInterval(strategy) //method 
-        //                              //break  - statement
-        //  }
-        // },2000)
-         
-
 
     
   //while{} || do{} while - TRUE || FALSE
